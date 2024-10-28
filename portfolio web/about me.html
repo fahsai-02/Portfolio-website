@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nakagamon Saengdara</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Kanit(Thai)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Rubik,Poppins(Eng)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav id="nav">
+      <div class="container">
+        <div class="nav-con">
+          <div class="logo">
+            <a href="/index.html">Portfolio</a>
+          </div>
+
+          <div
+            class="humburger-icon"
+            id="hamIcon"
+            onclick="toggleHamburgerIcon(this)"
+          >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+
+          <ul class="menu" id="myMenu">
+            <a href="#About"><li>About me</li></a>
+            <a href="#Education"><li>Education</li></a>
+            <a href="#Skill"><li>Skill</li></a>
+            <a href="#Contact"><li>Contact</li></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--content lorem-->
+
+    <section style="width: 100%; padding: 0px 0 50px 40px">
+      <!--About me-->
+      <div class="display">
+        <a id="About" class="section-header"><h1>About me</h1></a>
+        <div class="content">
+          <div style="display: flex; flex-wrap: wrap">
+            <div>ชื่อ-สกุล(ภาษาอังกฤษ) :&nbsp;</div>
+            <div style="margin-top: 3px" div class="conAboutme">
+              &nbsp;Nakagamon Saengdara
+            </div>
+          </div>
+          <div style="display: flex; flex-wrap: wrap">
+            <div>ชื่อ-สกุล(ภาษาไทย) :&nbsp;</div>
+            <div class="conAboutme">&nbsp;น.ส.นคกมล แสงดารา</div>
+          </div>
+          <div style="display: flex; flex-wrap: wrap">
+            <div class="conAboutme">
+              ชื่อเล่น : ฟ้าใส
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="conAboutme">อายุ : 18 ปี</div>
+          </div>
+        </div>
+      </div>
+      <!--Education-->
+      <div class="display">
+        <a id="Education" class="section-header"><h1>Education</h1></a>
+        <div class="display_content">
+          <!--content of education-->
+          <div class="content">
+            <h6>ระดับมัธยมศึกษา</h6>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap">
+              <img
+                src="/images/school/Bodin_Logo.png"
+                alt="Bodin"
+                class="img_school"
+              />
+              <div style="align-content: center">
+                โรงเรียน : บดินทรเดชา(สิงห์ สิงหเสนี)<br />
+                สายการเรียน : วิทย์-คณิต<br />
+                เกรดเฉลี่ย : 3.92
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <h6>ระดับปริญญาตรี (กำลังศึกษา)</h6>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap">
+              <img
+                src="/images/school/KMUTT_Logo.png"
+                alt="KMUTT"
+                class="img_school"
+                style="align-content: center"
+              />
+              <div style="align-content: center">
+                มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี<br />
+                คณะ : วิศวกรรมศาสตร์<br />
+                สาขา : วิศวกรรมคอมพิวเตอร์<br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Skill-->
+      <div class="display">
+        <a id="Skill" class="section-header"><h1>Skill</h1></a>
+        <div class="display_content">
+          <div class="content">
+            <h6>Programming Skill</h6>
+            <div class="display_content">
+              <div>
+                <center>
+                  <img
+                    class="skill"
+                    src="images/Skill_program/c-language.png"
+                    alt="c language"
+                  />
+                  <div>C-language</div>
+                </center>
+              </div>
+              <div>
+                <center>
+                  <img
+                    class="skill"
+                    src="images/Skill_program/HTML5.png"
+                    alt="HTML5"
+                  />
+                  <div>HTML</div>
+                </center>
+              </div>
+              <div>
+                <center>
+                  <img
+                    class="skill"
+                    src="images/Skill_program/CSS3.png"
+                    alt="CSS3"
+                  />
+                  <div>CSS</div>
+                </center>
+              </div>
+              <div>
+                <center>
+                  <img
+                    class="skill"
+                    src="images/Skill_program/JavaScript.png"
+                    alt="JavaScript"
+                  />
+                  <div>JavaScript</div>
+                </center>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <h6>Soft Skill</h6>
+            <div style="margin-top: 5px">
+              1. การทำงานร่วมกับผู้อื่น<br />
+              2. การสื่อสารและความคิดสร้างสรรค์<br />
+              3. การปรับตัวและเรียนรู้ได้เร็ว<br />
+              4. การบริหารจัดการเวลาและการจัดระเบียบ<br />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contact-->
+      <div class="display">
+        <a id="Contact" class="section-header"><h1>Contact</h1></a>
+        <div class="content" style="margin-bottom: 150px">
+          เบอร์โทรศัพท์ : 0927756550<br />
+          Line ID : 0927756550
+        </div>
+      </div>
+      <!--img-->
+      <div>
+        <img src="images/profile/WFH.gif" height="310px" />
+        <img src="images/profile/ยังไม่ได้นอน.jpg" height="310px" />
+        <img src="images/profile/ไรอะนุด.jpg" height="310px" />
+        <div>รูปให้กำลังใจในการทำงานค่ะ (จริงๆใส่เพื่อให้มันเลื่อนได้)</div>
+      </div>
+    </section>
+    <script src="/navbarfix.js"></script>
+  </body>
+</html>
